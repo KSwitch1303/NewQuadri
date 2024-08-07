@@ -1,0 +1,57 @@
+.keyboard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #144222;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 100%; */
+  box-sizing: border-box;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.key {
+  font-size: 16px;
+  margin: 3px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 30px;
+  text-align: center;
+  flex-grow: 1;
+  box-sizing: border-box;
+  max-width: 40px;
+}
+
+.special-key {
+  width: auto;
+  flex-grow: 2;
+  max-width: 80px;
+  padding: 10px;
+}
+
+#space {
+  flex-grow: 5;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.key:hover {
+  background-color: #e0e0e0;
+}
